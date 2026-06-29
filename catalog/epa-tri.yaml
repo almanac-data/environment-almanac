@@ -1,0 +1,40 @@
+id: epa-tri
+title: Toxics Release Inventory (TRI)
+description: EPA's annual accounting of toxic chemical releases and waste management from industrial and
+  federal facilities — the foundational US right-to-know dataset on industrial pollution.
+publisher: U.S. Environmental Protection Agency (EPA)
+topics:
+- toxics
+- pollution
+- chemicals
+- right-to-know
+- facilities
+source:
+  canonical_url: https://www.epa.gov/toxics-release-inventory-tri-program
+  predecessor_url: null
+  doi: null
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- json
+coverage:
+  spatial: United States
+  temporal: 1987-present
+  cadence: annual
+license: public-domain (US Gov work)
+attribution: U.S. Environmental Protection Agency, Toxics Release Inventory
+archive:
+  wayback_url: null
+  cloud_mirror: null
+  mirror: null
+status: live
+last_checked: '2026-06-29'
+checksum: null
+notes: Bulk files and the Envirofacts API expose the full TRI.
