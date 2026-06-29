@@ -1,0 +1,39 @@
+id: epa-envirofacts
+title: EPA Envirofacts
+description: Integrated access to multiple EPA program databases — air, water, waste, toxics, and facility
+  data — through a single set of REST APIs.
+publisher: U.S. Environmental Protection Agency (EPA)
+topics:
+- facilities
+- multi-program
+- integrated
+- environmental
+source:
+  canonical_url: https://www.epa.gov/enviro
+  predecessor_url: null
+  doi: null
+access:
+  method:
+  - web
+  - api
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- json
+- xml
+coverage:
+  spatial: United States
+  temporal: varies
+  cadence: irregular
+license: public-domain (US Gov work)
+attribution: U.S. EPA Envirofacts
+archive:
+  wayback_url: null
+  cloud_mirror: null
+  mirror: null
+status: live
+last_checked: '2026-06-29'
+checksum: null
+notes: REST APIs across EPA program systems.

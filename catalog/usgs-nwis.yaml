@@ -1,0 +1,41 @@
+id: usgs-nwis
+title: USGS National Water Information System (NWIS)
+description: USGS's national archive of water-resources data — streamflow, groundwater levels, and water
+  quality from hundreds of thousands of monitoring sites.
+publisher: U.S. Geological Survey (USGS)
+topics:
+- water
+- streamflow
+- groundwater
+- hydrology
+- monitoring
+source:
+  canonical_url: https://waterdata.usgs.gov/nwis
+  predecessor_url: null
+  doi: null
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- json
+- rdb
+coverage:
+  spatial: United States
+  temporal: early 1900s-present
+  cadence: daily
+license: public-domain (US Gov work)
+attribution: U.S. Geological Survey, NWIS
+archive:
+  wayback_url: null
+  cloud_mirror: null
+  mirror: null
+status: live
+last_checked: '2026-06-29'
+checksum: null
+notes: null
