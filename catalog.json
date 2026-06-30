@@ -1,11 +1,58 @@
 {
   "name": "Environment Almanac",
   "description": "An open, versioned index of public environmental data.",
-  "count": 7,
+  "count": 8,
   "by_status": {
-    "live": 7
+    "live": 8
   },
   "entries": [
+    {
+      "id": "epa-airdata",
+      "title": "EPA AirData",
+      "description": "EPA AirData provides access to recent and historical outdoor air quality data collected at monitoring stations across the United States, including downloadable datasets, AQI reports, and monitor information.",
+      "publisher": "U.S. Environmental Protection Agency (EPA)",
+      "topics": [
+        "air-quality",
+        "pollutants",
+        "monitoring",
+        "aqi"
+      ],
+      "source": {
+        "canonical_url": "https://www.epa.gov/outdoor-air-quality-data",
+        "predecessor_url": null,
+        "doi": null
+      },
+      "access": {
+        "method": [
+          "web",
+          "api",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": "API requires a free key obtained by email registration; bulk pre-generated files are publicly available.",
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "json"
+      ],
+      "coverage": {
+        "spatial": "United States",
+        "temporal": "1980-present",
+        "cadence": "daily"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Environmental Protection Agency, AirData",
+      "archive": {
+        "wayback_url": null,
+        "cloud_mirror": null,
+        "mirror": null
+      },
+      "status": "live",
+      "last_checked": "2026-06-30",
+      "checksum": null,
+      "notes": null
+    },
     {
       "id": "epa-airnow",
       "title": "AirNow",
