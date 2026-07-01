@@ -8,6 +8,7 @@
   "entries": [
     {
       "id": "epa-airdata",
+      "type": "dataset",
       "title": "EPA AirData",
       "description": "EPA AirData provides access to recent and historical outdoor air quality data collected at monitoring stations across the United States, including downloadable datasets, AQI reports, and monitor information.",
       "publisher": "U.S. Environmental Protection Agency (EPA)",
@@ -18,9 +19,7 @@
         "aqi"
       ],
       "source": {
-        "canonical_url": "https://www.epa.gov/outdoor-air-quality-data",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.epa.gov/outdoor-air-quality-data"
       },
       "access": {
         "method": [
@@ -36,6 +35,17 @@
         "csv",
         "json"
       ],
+      "status": "live",
+      "status_since": "2026-06-30",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-30",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "1980-present",
@@ -43,18 +53,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Environmental Protection Agency, AirData",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-30",
-      "checksum": null,
       "notes": null
     },
     {
       "id": "epa-airnow",
+      "type": "dataset",
       "title": "AirNow",
       "description": "EPA's real-time air quality reporting program — current and forecast Air Quality Index (AQI) for ozone and particle pollution across the US, sourced from monitoring agencies.",
       "publisher": "U.S. Environmental Protection Agency (EPA)",
@@ -66,9 +69,7 @@
         "particulates"
       ],
       "source": {
-        "canonical_url": "https://www.airnow.gov/",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.airnow.gov/"
       },
       "access": {
         "method": [
@@ -83,6 +84,17 @@
         "json",
         "csv"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "real-time + forecast",
@@ -90,18 +102,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. EPA AirNow",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": null
     },
     {
       "id": "epa-aqs",
+      "type": "dataset",
       "title": "EPA Air Quality System (AQS)",
       "description": "EPA's repository of ambient air quality data collected from state, local, and tribal monitoring agencies — criteria pollutants, hazardous air pollutants, and meteorological data.",
       "publisher": "U.S. Environmental Protection Agency (EPA)",
@@ -112,9 +117,7 @@
         "emissions"
       ],
       "source": {
-        "canonical_url": "https://www.epa.gov/aqs",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.epa.gov/aqs"
       },
       "access": {
         "method": [
@@ -129,6 +132,17 @@
         "csv",
         "json"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "1980-present",
@@ -136,18 +150,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Environmental Protection Agency, Air Quality System",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": null
     },
     {
       "id": "epa-echo",
+      "type": "dataset",
       "title": "Enforcement and Compliance History Online (ECHO)",
       "description": "EPA's portal for facility-level environmental compliance and enforcement data — inspections, violations, and enforcement actions under the Clean Air Act, Clean Water Act, and RCRA.",
       "publisher": "U.S. Environmental Protection Agency (EPA)",
@@ -159,9 +166,7 @@
         "clean-water"
       ],
       "source": {
-        "canonical_url": "https://echo.epa.gov/",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://echo.epa.gov/"
       },
       "access": {
         "method": [
@@ -177,6 +182,17 @@
         "csv",
         "json"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "varies",
@@ -184,18 +200,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Environmental Protection Agency, ECHO",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": "REST services and downloadable national data sets."
     },
     {
       "id": "epa-envirofacts",
+      "type": "dataset",
       "title": "EPA Envirofacts",
       "description": "Integrated access to multiple EPA program databases — air, water, waste, toxics, and facility data — through a single set of REST APIs.",
       "publisher": "U.S. Environmental Protection Agency (EPA)",
@@ -206,9 +215,7 @@
         "environmental"
       ],
       "source": {
-        "canonical_url": "https://www.epa.gov/enviro",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.epa.gov/enviro"
       },
       "access": {
         "method": [
@@ -224,6 +231,17 @@
         "json",
         "xml"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "varies",
@@ -231,18 +249,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. EPA Envirofacts",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": "REST APIs across EPA program systems."
     },
     {
       "id": "epa-tri",
+      "type": "dataset",
       "title": "Toxics Release Inventory (TRI)",
       "description": "EPA's annual accounting of toxic chemical releases and waste management from industrial and federal facilities — the foundational US right-to-know dataset on industrial pollution.",
       "publisher": "U.S. Environmental Protection Agency (EPA)",
@@ -254,9 +265,7 @@
         "facilities"
       ],
       "source": {
-        "canonical_url": "https://www.epa.gov/toxics-release-inventory-tri-program",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.epa.gov/toxics-release-inventory-tri-program"
       },
       "access": {
         "method": [
@@ -272,6 +281,17 @@
         "csv",
         "json"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "1987-present",
@@ -279,18 +299,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Environmental Protection Agency, Toxics Release Inventory",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": "Bulk files and the Envirofacts API expose the full TRI."
     },
     {
       "id": "usgs-nwis",
+      "type": "dataset",
       "title": "USGS National Water Information System (NWIS)",
       "description": "USGS's national archive of water-resources data — streamflow, groundwater levels, and water quality from hundreds of thousands of monitoring sites.",
       "publisher": "U.S. Geological Survey (USGS)",
@@ -302,9 +315,7 @@
         "monitoring"
       ],
       "source": {
-        "canonical_url": "https://waterdata.usgs.gov/nwis",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://waterdata.usgs.gov/nwis"
       },
       "access": {
         "method": [
@@ -321,6 +332,17 @@
         "json",
         "rdb"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "early 1900s-present",
@@ -328,18 +350,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Geological Survey, NWIS",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": null
     },
     {
       "id": "usgs-water-quality-portal",
+      "type": "dataset",
       "title": "Water Quality Portal",
       "description": "A cooperative service of USGS, EPA, and the National Water Quality Monitoring Council providing water-quality monitoring data from over 400 federal, state, tribal, and local agencies.",
       "publisher": "USGS / EPA / National Water Quality Monitoring Council",
@@ -350,9 +365,7 @@
         "samples"
       ],
       "source": {
-        "canonical_url": "https://www.waterqualitydata.us/",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.waterqualitydata.us/"
       },
       "access": {
         "method": [
@@ -367,6 +380,17 @@
         "csv",
         "xml"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "varies",
@@ -374,14 +398,6 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "Water Quality Portal (USGS, EPA, NWQMC)",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": "Standardized WQX format; programmatic web services."
     }
   ]

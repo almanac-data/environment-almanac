@@ -1,4 +1,5 @@
 id: epa-echo
+type: dataset
 title: Enforcement and Compliance History Online (ECHO)
 description: EPA's portal for facility-level environmental compliance and enforcement data — inspections,
   violations, and enforcement actions under the Clean Air Act, Clean Water Act, and RCRA.
@@ -11,8 +12,6 @@ topics:
 - clean-water
 source:
   canonical_url: https://echo.epa.gov/
-  predecessor_url: null
-  doi: null
 access:
   method:
   - web
@@ -24,17 +23,20 @@ access:
 format:
 - csv
 - json
+status: live
+status_since: '2026-06-29'
+status_source: auto
+observed:
+  checked: '2026-06-29'
+  reachable: null
+  http_status: null
+  final_url: null
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States
   temporal: varies
   cadence: weekly
 license: public-domain (US Gov work)
 attribution: U.S. Environmental Protection Agency, ECHO
-archive:
-  wayback_url: null
-  cloud_mirror: null
-  mirror: null
-status: live
-last_checked: '2026-06-29'
-checksum: null
 notes: REST services and downloadable national data sets.
