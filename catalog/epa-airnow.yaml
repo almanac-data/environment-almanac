@@ -1,4 +1,5 @@
 id: epa-airnow
+type: dataset
 title: AirNow
 description: EPA's real-time air quality reporting program — current and forecast Air Quality Index (AQI)
   for ozone and particle pollution across the US, sourced from monitoring agencies.
@@ -11,8 +12,6 @@ topics:
 - particulates
 source:
   canonical_url: https://www.airnow.gov/
-  predecessor_url: null
-  doi: null
 access:
   method:
   - web
@@ -23,17 +22,20 @@ access:
 format:
 - json
 - csv
+status: live
+status_since: '2026-06-29'
+status_source: auto
+observed:
+  checked: '2026-06-29'
+  reachable: null
+  http_status: null
+  final_url: null
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States
   temporal: real-time + forecast
   cadence: daily
 license: public-domain (US Gov work)
 attribution: U.S. EPA AirNow
-archive:
-  wayback_url: null
-  cloud_mirror: null
-  mirror: null
-status: live
-last_checked: '2026-06-29'
-checksum: null
 notes: null

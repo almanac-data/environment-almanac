@@ -1,4 +1,5 @@
 id: usgs-water-quality-portal
+type: dataset
 title: Water Quality Portal
 description: A cooperative service of USGS, EPA, and the National Water Quality Monitoring Council providing
   water-quality monitoring data from over 400 federal, state, tribal, and local agencies.
@@ -10,8 +11,6 @@ topics:
 - samples
 source:
   canonical_url: https://www.waterqualitydata.us/
-  predecessor_url: null
-  doi: null
 access:
   method:
   - web
@@ -22,17 +21,20 @@ access:
 format:
 - csv
 - xml
+status: live
+status_since: '2026-06-29'
+status_source: auto
+observed:
+  checked: '2026-06-29'
+  reachable: null
+  http_status: null
+  final_url: null
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States
   temporal: varies
   cadence: irregular
 license: public-domain (US Gov work)
 attribution: Water Quality Portal (USGS, EPA, NWQMC)
-archive:
-  wayback_url: null
-  cloud_mirror: null
-  mirror: null
-status: live
-last_checked: '2026-06-29'
-checksum: null
 notes: Standardized WQX format; programmatic web services.

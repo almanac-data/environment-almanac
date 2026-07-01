@@ -1,4 +1,5 @@
 id: epa-aqs
+type: dataset
 title: EPA Air Quality System (AQS)
 description: EPA's repository of ambient air quality data collected from state, local, and tribal monitoring
   agencies — criteria pollutants, hazardous air pollutants, and meteorological data.
@@ -10,8 +11,6 @@ topics:
 - emissions
 source:
   canonical_url: https://www.epa.gov/aqs
-  predecessor_url: null
-  doi: null
 access:
   method:
   - web
@@ -22,17 +21,20 @@ access:
 format:
 - csv
 - json
+status: live
+status_since: '2026-06-29'
+status_source: auto
+observed:
+  checked: '2026-06-29'
+  reachable: null
+  http_status: null
+  final_url: null
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States
   temporal: 1980-present
   cadence: daily
 license: public-domain (US Gov work)
 attribution: U.S. Environmental Protection Agency, Air Quality System
-archive:
-  wayback_url: null
-  cloud_mirror: null
-  mirror: null
-status: live
-last_checked: '2026-06-29'
-checksum: null
 notes: null
