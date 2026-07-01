@@ -4,6 +4,9 @@ title: EPA Air Quality System (AQS)
 description: EPA's repository of ambient air quality data collected from state, local, and tribal monitoring
   agencies — criteria pollutants, hazardous air pollutants, and meteorological data.
 publisher: U.S. Environmental Protection Agency (EPA)
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - air-quality
 - pollutants

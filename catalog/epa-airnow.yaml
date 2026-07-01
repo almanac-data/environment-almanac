@@ -4,6 +4,9 @@ title: AirNow
 description: EPA's real-time air quality reporting program — current and forecast Air Quality Index (AQI)
   for ozone and particle pollution across the US, sourced from monitoring agencies.
 publisher: U.S. Environmental Protection Agency (EPA)
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - air-quality
 - aqi

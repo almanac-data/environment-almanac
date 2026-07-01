@@ -5,6 +5,9 @@ description: EPA AirData provides access to recent and historical outdoor air qu
   monitoring stations across the United States, including downloadable datasets, AQI reports, and monitor
   information.
 publisher: U.S. Environmental Protection Agency (EPA)
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - air-quality
 - pollutants

@@ -12,6 +12,10 @@
       "title": "EPA AirData",
       "description": "EPA AirData provides access to recent and historical outdoor air quality data collected at monitoring stations across the United States, including downloadable datasets, AQI reports, and monitor information.",
       "publisher": "U.S. Environmental Protection Agency (EPA)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "air-quality",
         "pollutants",
@@ -61,6 +65,10 @@
       "title": "AirNow",
       "description": "EPA's real-time air quality reporting program — current and forecast Air Quality Index (AQI) for ozone and particle pollution across the US, sourced from monitoring agencies.",
       "publisher": "U.S. Environmental Protection Agency (EPA)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "air-quality",
         "aqi",
@@ -110,6 +118,10 @@
       "title": "EPA Air Quality System (AQS)",
       "description": "EPA's repository of ambient air quality data collected from state, local, and tribal monitoring agencies — criteria pollutants, hazardous air pollutants, and meteorological data.",
       "publisher": "U.S. Environmental Protection Agency (EPA)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "air-quality",
         "pollutants",
@@ -158,6 +170,10 @@
       "title": "Enforcement and Compliance History Online (ECHO)",
       "description": "EPA's portal for facility-level environmental compliance and enforcement data — inspections, violations, and enforcement actions under the Clean Air Act, Clean Water Act, and RCRA.",
       "publisher": "U.S. Environmental Protection Agency (EPA)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "enforcement",
         "compliance",
@@ -208,6 +224,10 @@
       "title": "EPA Envirofacts",
       "description": "Integrated access to multiple EPA program databases — air, water, waste, toxics, and facility data — through a single set of REST APIs.",
       "publisher": "U.S. Environmental Protection Agency (EPA)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "facilities",
         "multi-program",
@@ -257,6 +277,10 @@
       "title": "Toxics Release Inventory (TRI)",
       "description": "EPA's annual accounting of toxic chemical releases and waste management from industrial and federal facilities — the foundational US right-to-know dataset on industrial pollution.",
       "publisher": "U.S. Environmental Protection Agency (EPA)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "toxics",
         "pollution",
@@ -307,6 +331,10 @@
       "title": "USGS National Water Information System (NWIS)",
       "description": "USGS's national archive of water-resources data — streamflow, groundwater levels, and water quality from hundreds of thousands of monitoring sites.",
       "publisher": "U.S. Geological Survey (USGS)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "water",
         "streamflow",
@@ -358,6 +386,10 @@
       "title": "Water Quality Portal",
       "description": "A cooperative service of USGS, EPA, and the National Water Quality Monitoring Council providing water-quality monitoring data from over 400 federal, state, tribal, and local agencies.",
       "publisher": "USGS / EPA / National Water Quality Monitoring Council",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "water-quality",
         "monitoring",

@@ -4,6 +4,9 @@ title: USGS National Water Information System (NWIS)
 description: USGS's national archive of water-resources data — streamflow, groundwater levels, and water
   quality from hundreds of thousands of monitoring sites.
 publisher: U.S. Geological Survey (USGS)
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - water
 - streamflow

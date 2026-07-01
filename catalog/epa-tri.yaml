@@ -4,6 +4,9 @@ title: Toxics Release Inventory (TRI)
 description: EPA's annual accounting of toxic chemical releases and waste management from industrial and
   federal facilities — the foundational US right-to-know dataset on industrial pollution.
 publisher: U.S. Environmental Protection Agency (EPA)
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - toxics
 - pollution

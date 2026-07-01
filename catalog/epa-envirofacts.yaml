@@ -4,6 +4,9 @@ title: EPA Envirofacts
 description: Integrated access to multiple EPA program databases — air, water, waste, toxics, and facility
   data — through a single set of REST APIs.
 publisher: U.S. Environmental Protection Agency (EPA)
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - facilities
 - multi-program

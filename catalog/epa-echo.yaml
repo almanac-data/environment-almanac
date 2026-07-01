@@ -4,6 +4,9 @@ title: Enforcement and Compliance History Online (ECHO)
 description: EPA's portal for facility-level environmental compliance and enforcement data — inspections,
   violations, and enforcement actions under the Clean Air Act, Clean Water Act, and RCRA.
 publisher: U.S. Environmental Protection Agency (EPA)
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - enforcement
 - compliance
