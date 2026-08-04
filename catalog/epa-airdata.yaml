@@ -31,10 +31,10 @@ status: live
 status_since: '2026-06-30'
 status_source: auto
 observed:
-  checked: '2026-06-30'
-  reachable: null
-  http_status: null
-  final_url: null
+  checked: '2026-08-04'
+  reachable: true
+  http_status: 200
+  final_url: https://www.epa.gov/outdoor-air-quality-data
   redirect_chain: []
   fingerprint_result: no-baseline
 coverage:
