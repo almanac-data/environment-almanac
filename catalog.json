@@ -43,10 +43,10 @@
       "status_since": "2026-06-30",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
-        "reachable": true,
-        "http_status": 200,
-        "final_url": "https://www.epa.gov/outdoor-air-quality-data",
+        "checked": "2026-09-19",
+        "reachable": false,
+        "http_status": null,
+        "final_url": null,
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
@@ -96,7 +96,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-19",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.airnow.gov/",
@@ -148,7 +148,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-19",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.epa.gov/aqs",
@@ -202,7 +202,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-19",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://echo.epa.gov/",
@@ -255,13 +255,11 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
-        "reachable": true,
-        "http_status": 200,
-        "final_url": "https://enviro.epa.gov/",
-        "redirect_chain": [
-          "https://enviro.epa.gov/"
-        ],
+        "checked": "2026-09-19",
+        "reachable": false,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
       "coverage": {
@@ -311,7 +309,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-19",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.epa.gov/toxics-release-inventory-tri-program",
@@ -366,7 +364,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-19",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://waterdata.usgs.gov/",
@@ -420,7 +418,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-19",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.waterqualitydata.us/",
