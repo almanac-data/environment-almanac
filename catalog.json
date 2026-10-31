@@ -1,11 +1,64 @@
 {
   "name": "Environment Almanac",
   "description": "An open, versioned index of public environmental data.",
-  "count": 9,
+  "count": 10,
   "by_status": {
-    "live": 9
+    "live": 10
   },
   "entries": [
+    {
+      "id": "eea-datahub",
+      "type": "dataset",
+      "title": "European Environment Agency Datahub",
+      "description": "The EEA's catalogue of quality-assured environmental, climate, and sustainability data collected through its network across 38 European countries, including Copernicus services, with exploration and download.\n",
+      "publisher": "European Environment Agency (EEA)",
+      "jurisdiction": {
+        "scope": "regional-bloc",
+        "country": null
+      },
+      "topics": [
+        "environment",
+        "air-quality",
+        "emissions",
+        "copernicus",
+        "europe"
+      ],
+      "source": {
+        "canonical_url": "https://www.eea.europa.eu/en/datahub"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "geotiff",
+        "shapefile"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "38 European countries (EEA member and cooperating countries)",
+        "temporal": "varies by dataset",
+        "cadence": "irregular"
+      },
+      "license": "CC-BY-4.0 (EEA legal notice; EEA materials published under CC BY)",
+      "attribution": "European Environment Agency (EEA)",
+      "notes": "Human-verified 2026-10-31 in headless Chromium: HTTP 200. The Datahub says the EEA collects and quality-checks data \"through our network and other institutional partners across 38 European countries\" and \"This datahub allows you to explore and download these data\"; a featured item was the European Ground Motion Service (7 Oct 2026). The EEA legal notice (https://www.eea.europa.eu/en/legal-notice) says \"EEA materials are published under the CC-BY license\" and may be re-used \"for commercial or non-commercial purposes, provided that the EEA is always acknowledged\". The CC BY version (4.0) and the formats come from the EEA's usual practice and weren't checked here.\n"
+    },
     {
       "id": "epa-airdata",
       "type": "dataset",
