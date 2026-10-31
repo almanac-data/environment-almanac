@@ -1,0 +1,83 @@
+id: epa-ejscreen
+type: dataset
+title: EPA EJScreen (Environmental Justice Screening and Mapping Tool)
+description: |
+  EPA's environmental justice screening and mapping tool and its downloadable data: environmental indicators (such as PM2.5, ozone, diesel particulate matter, traffic and hazardous-facility proximity, lead paint, Superfund proximity, wastewater discharge) combined with demographic indicators at the census block group level. EPA removed the tool and its data downloads from public access in February 2025.
+publisher: U.S. Environmental Protection Agency (EPA)
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- environmental-justice
+- screening
+- block-group
+- pollution
+- demographics
+source:
+  canonical_url: https://www.epa.gov/ejscreen
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- gdb
+- csv
+status: dark
+status_since: '2025-02-05'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20250204145447/https://www.epa.gov/ejscreen/download-ejscreen-data
+  authenticity: timestamped
+  permission: ok
+  captured: '2025-02-04'
+  notes: EPA's "Download EJScreen Data" page, captured the day before public access ended. The data files it links may or may not have been captured too; each should be checked before reuse.
+- via: wayback
+  url: https://web.archive.org/web/20250204081902/https://www.epa.gov/ejscreen/technical-information-and-data-downloads
+  authenticity: timestamped
+  permission: ok
+  captured: '2025-02-04'
+  notes: EPA's technical information and data downloads page, captured the day before public access ended.
+- via: wayback
+  url: https://web.archive.org/web/20250201212117/https://www.epa.gov/ejscreen
+  authenticity: timestamped
+  permission: ok
+  captured: '2025-02-01'
+  notes: The EJScreen landing page four days before public access ended.
+- via: predecessor
+  url: https://19january2021snapshot.epa.gov/ejscreen_.html
+  authenticity: timestamped
+  permission: ok
+  captured: '2021-01-19'
+  notes: EPA's own January 19, 2021 website snapshot, which documents an earlier version than the 2.3 removed in 2025.
+- via: community
+  url: https://screening-tools.com/epa-ejscreen
+  authenticity: asserted
+  permission: ok
+  captured: null
+  notes: Public Environmental Data Partners' reconstruction of EJScreen version 2.3 (also served at https://pedp-ejscreen.azurewebsites.net/). It is a rebuilt copy, not EPA's, and its makers say some functions are incomplete. Nothing here verifies it against EPA's data.
+- via: community
+  url: https://energyhistory.yale.edu/ejscreen-mirror/
+  authenticity: asserted
+  permission: ok
+  captured: null
+  notes: A mirror of the reconstructed tool hosted by Yale's Energy History project. It is not verified against EPA's data.
+coverage:
+  spatial: United States (census block group, with state, county, city and national views)
+  temporal: tool public from 2015 until removal; version 2.3 (July 2024) was the last
+  cadence: annual
+license: public-domain (US Gov work)
+attribution: U.S. EPA, EJScreen
+notes: |
+  Cataloged 2026-10-31 as dark, from the open request in issue #3. On 2026-10-31, https://www.epa.gov/ejscreen returned HTTP 404 ("Page Not Found | US EPA"). The mapper host, ejscreen.epa.gov, did not answer at all (the proxy's CONNECT failed with 502). EPA's environmental justice page (https://www.epa.gov/environmentaljustice) also returned 404.
+  Removal date: Wikipedia's EJScreen article says "As of February 5, 2025, the EJScreen has been removed from public access" and that data "could also no longer be downloaded by users". It cites EDGI's report "EPA Removes EJScreen from Its Website" (2025-02-12, https://envirodatagov.org/epa-removes-ejscreen-from-its-website/), which returned 403 here and was not read directly. status_since uses that date. This catalog's own first observation is 2026-10-31.
+  Recovery candidates are ranked by authenticity, never by who runs them. The three Wayback captures and EPA's 2021 snapshot are dated copies made before the loss (timestamped); none is hash-verified, because this catalog never had a live baseline. The two community copies are reconstructions and are asserted only.
+  The licence is US Government work for EPA's own data. Formats (file geodatabase, CSV) and the 2015 public launch come from the tool's usual description and were not checked against the archived pages.
