@@ -1,0 +1,45 @@
+id: eurostat-environment-database
+type: dataset
+title: Eurostat Environment Database
+description: |
+  Eurostat's official EU environmental statistics and accounts — greenhouse gas and air emissions, waste, water, material flows, environmental taxes and protection expenditure, and environmental footprints.
+publisher: Eurostat (European Commission)
+jurisdiction:
+  scope: regional-bloc
+  country: null
+topics:
+- emissions
+- waste
+- environmental-accounts
+- europe
+source:
+  canonical_url: https://ec.europa.eu/eurostat/web/environment/database
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- tsv
+- xlsx
+- sdmx
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: EU member states (plus some EFTA and candidate countries)
+  temporal: varies by dataset
+  cadence: annual
+license: CC-BY-4.0 (Eurostat copyright notice and free re-use of data)
+attribution: Eurostat
+notes: |
+  Human-verified 2026-10-31: HTTP 200, page "ENVIRONMENT Database" with selected and detailed datasets. It lists "Environmental footprints based on FIGARO (2025 edition, last update: 05 November 2025)" and greenhouse gas, CO2, and methane emissions series. Eurostat's copyright notice (https://ec.europa.eu/eurostat/help/copyright-notice) licenses its content under CC BY 4.0. The topic list in the description reflects Eurostat's usual environment tables and wasn't checked dataset by dataset.
