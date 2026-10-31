@@ -1,9 +1,9 @@
 {
   "name": "Environment Almanac",
   "description": "An open, versioned index of public environmental data.",
-  "count": 8,
+  "count": 9,
   "by_status": {
-    "live": 8
+    "live": 9
   },
   "entries": [
     {
@@ -272,6 +272,57 @@
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. EPA Envirofacts",
       "notes": "REST APIs across EPA program systems."
+    },
+    {
+      "id": "epa-ghgrp",
+      "type": "dataset",
+      "title": "EPA Greenhouse Gas Reporting Program (GHGRP)",
+      "description": "Facility-level greenhouse gas emissions data reported annually to EPA by large emitters, fuel and industrial gas suppliers, and CO2 injection sites, searchable through the FLIGHT tool and downloadable.\n",
+      "publisher": "U.S. Environmental Protection Agency (EPA)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "greenhouse-gases",
+        "emissions",
+        "facility-level",
+        "industry"
+      ],
+      "source": {
+        "canonical_url": "https://www.epa.gov/ghgreporting"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "xlsx",
+        "csv"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (facility level)",
+        "temporal": "2010-present (2023 data latest shown)",
+        "cadence": "annual"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. EPA, Greenhouse Gas Reporting Program",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page reports \"2023 Greenhouse Gas Reporting Program data is now available\". It also notes a September 12, 2025 EPA proposal \"to permanently remove program obligations for 46 source categories of the GHGRP\". That proposal is a real risk to future coverage, so this entry is worth fingerprinting while the data is live, and a steward should watch for the rule's outcome. The 2010 start, the FLIGHT tool, and API access through Envirofacts come from the program's usual description and weren't checked here.\n"
     },
     {
       "id": "epa-tri",
