@@ -1,0 +1,42 @@
+id: epa-superfund-sites
+type: dataset
+title: EPA Superfund Sites (National Priorities List)
+description: |
+  EPA's searchable information on Superfund hazardous waste sites — sites proposed to, on, or deleted from the National Priorities List, sites addressed under the Superfund Alternative Approach, and non-NPL sites — by state and map.
+publisher: U.S. Environmental Protection Agency (EPA)
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- hazardous-waste
+- superfund
+- contaminated-sites
+- site-level
+source:
+  canonical_url: https://www.epa.gov/superfund/search-superfund-sites-where-you-live
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- html
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: United States and territories (site level)
+  temporal: 1980s-present (CERCLA program history)
+  cadence: irregular
+license: public-domain (US Gov work)
+attribution: U.S. EPA, Superfund program
+notes: |
+  Human-verified 2026-10-31: HTTP 200. The page offers searches for "sites proposed to, currently on, and deleted from Superfund's National Priorities List (NPL) as well as sites being addressed under the Superfund Alternative Approach (SAA)", by state (including territories such as American Samoa and Guam), with a map and advanced search for NPL and non-NPL sites. The underlying system name (SEMS), the 1980s start, and the csv export weren't checked. Environment-almanac's epa-envirofacts entry is EPA's cross-program gateway; this entry is the Superfund-specific source.
