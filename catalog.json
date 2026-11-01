@@ -1,10 +1,10 @@
 {
   "name": "Environment Almanac",
   "description": "An open, versioned index of public environmental data.",
-  "count": 16,
+  "count": 17,
   "by_status": {
     "dark": 1,
-    "live": 15
+    "live": 16
   },
   "entries": [
     {
@@ -548,6 +548,51 @@
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. EPA, Greenhouse Gas Reporting Program",
       "notes": "Human-verified 2026-10-31: HTTP 200. The page reports \"2023 Greenhouse Gas Reporting Program data is now available\". It also notes a September 12, 2025 EPA proposal \"to permanently remove program obligations for 46 source categories of the GHGRP\". That proposal is a real risk to future coverage, so this entry is worth fingerprinting while the data is live, and a steward should watch for the rule's outcome. The 2010 start, the FLIGHT tool, and API access through Envirofacts come from the program's usual description and weren't checked here.\n"
+    },
+    {
+      "id": "epa-sdwis",
+      "type": "dataset",
+      "title": "Safe Drinking Water Information System (SDWIS) Federal Reporting Services",
+      "description": "EPA's federal database of the nation's public water systems as reported by states, tribes and territories under the Safe Drinking Water Act: system inventory, violations of monitoring, treatment and contaminant-level rules, enforcement actions, lead and copper results and service-line inventories, queried through the SDWIS Fed reports system.\n",
+      "publisher": "U.S. Environmental Protection Agency (EPA), Office of Ground Water and Drinking Water",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "drinking-water",
+        "water-systems",
+        "violations",
+        "compliance"
+      ],
+      "source": {
+        "canonical_url": "https://www.epa.gov/ground-water-and-drinking-water/safe-drinking-water-information-system-sdwis-federal-reporting"
+      },
+      "access": {
+        "method": [
+          "web"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "status": "live",
+      "status_since": "2026-11-01",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-11-01",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States, territories and tribal primacy areas (public water system level)",
+        "temporal": "not checked",
+        "cadence": "quarterly"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Environmental Protection Agency, Safe Drinking Water Information System (SDWIS) Federal Data Warehouse",
+      "notes": "Human-verified 2026-11-01: HTTP 200 (page \"Last updated on February 17, 2026\"). It reads \"Welcome to the SDWIS Fed Reporting Services system. This system offers the capability to query the Safe Drinking Water Information System (SDWIS) Fed Data Warehouse via report filters and various reporting options\" and lists what states report: basic water-system information, violation information, and enforcement information. It links the reports application at https://sdwis.epa.gov/ords/sfdw_pub/f?p=SDWIS_FED_REPORTS_PUBLIC, which redirects (200) to https://sdwis.epa.gov/ords/sfdw_pub/r/sfdw/sdwis_fed_reports_public/200; that app renders in headless Chromium with a Water System Search and reports for Water System Summary and Detail, Service Area, Geographic Area, Site Visits, Event and Milestones, Facilities, Violations, Lead and Copper Report and Service Line Inventory, plus Tribal PFAS Monitoring Results and an AWIA Certification Report. The canonical URL is EPA's landing page rather than the app, whose path looks less stable. Not checked: export formats from the reports, any bulk download or API (SDWIS data are also served through Envirofacts and ECHO, already cataloged as epa-envirofacts and epa-echo), the start year, and the quarterly cadence (assumed from states' quarterly reporting).\nLicence checked 2026-11-01: EPA is a federal agency, so SDWIS data is a US Government work; no SDWIS-specific licence or copyright notice was found on either page. The data is reported by state primacy agencies, which EPA compiles and publishes.\n"
     },
     {
       "id": "epa-superfund-sites",
