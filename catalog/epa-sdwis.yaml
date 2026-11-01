@@ -25,9 +25,11 @@ status_since: '2026-11-01'
 status_source: curator
 observed:
   checked: '2026-11-01'
-  reachable: null
-  http_status: null
-  final_url: null
+  reachable: true
+  http_status: 200
+  final_url: https://www.epa.gov/ground-water-and-drinking-water/safe-drinking-water-information-system-sdwis-federal-reporting
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States, territories and tribal primacy areas (public water system level)
   temporal: not checked
