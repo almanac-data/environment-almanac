@@ -1,10 +1,10 @@
 {
   "name": "Environment Almanac",
   "description": "An open, versioned index of public environmental data.",
-  "count": 15,
+  "count": 16,
   "by_status": {
     "dark": 1,
-    "live": 14
+    "live": 15
   },
   "entries": [
     {
@@ -217,6 +217,57 @@
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Environmental Protection Agency, Air Quality System",
       "notes": null
+    },
+    {
+      "id": "epa-campd",
+      "type": "dataset",
+      "title": "Clean Air Markets Program Data (CAMPD)",
+      "description": "EPA's power-plant emissions, compliance and allowance data from continuous emissions monitoring: hourly-to-annual CO2, NOx, SO2 and mercury emissions by unit and facility, with allowance holdings and program compliance, through custom queries, bulk files and the CAM API.\n",
+      "publisher": "U.S. Environmental Protection Agency (EPA), Clean Air Markets",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "power-sector",
+        "emissions",
+        "air-pollution",
+        "cems"
+      ],
+      "source": {
+        "canonical_url": "https://campd.epa.gov/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": "The CAMPD web app needs no account; the CAM API needs a free API key requested through EPA's CAM API Portal.",
+        "rate_limit": "CAM API: 1,000 requests per hour by default, 15-minute timeout, 500 rows per page (CAM API Portal FAQ)"
+      },
+      "format": [
+        "csv",
+        "json"
+      ],
+      "status": "live",
+      "status_since": "2026-11-01",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-11-01",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (power plants in EPA's programs)",
+        "temporal": "annual emissions through 2025; 2026 quarterly submissions in progress (start year not checked)",
+        "cadence": "quarterly"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Environmental Protection Agency, Clean Air Markets Program Data (CAMPD)",
+      "notes": "Human-verified 2026-11-01: HTTP 200. Plain curl gets only the page title; the content is a JavaScript app read in headless Chromium. It says \"EPA collects comprehensive CO2, NOx, SO2, and mercury emissions data, and makes it publicly available, along with compliance and allowance data, and individual power plant details\", \"Create custom queries, download bulk datasets and use the CAM API\", \"2025 emissions data is available! (As of February 2026)\", and \"97% 2026 Third Quarter Emission Files Received\", with app version v2.0.168. The CAM API Portal (https://www.epa.gov/power-sector/cam-api-portal) has a \"Request API Key\" form and its FAQ gives \"Default rate limits of 1,000 requests per hour\". A keyless call to the bulk-files endpoint answered 403, consistent with the key requirement. Formats are assumed from the query and API tools and weren't tested.\nLicence checked 2026-11-01: EPA is a federal agency, so its data is a US Government work. EPA's disclaimers page (https://www.epa.gov/web-policies-and-procedures/epa-disclaimers) notes that some documents on EPA sites \"may be protected under the U.S. and Foreign Copyright Laws\" and that this is noted where it applies; nothing on CAMPD says so. No CAMPD-specific data licence was found. Environment-almanac should set reachability.headless for this entry.\n"
     },
     {
       "id": "epa-echo",
