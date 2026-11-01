@@ -1,10 +1,10 @@
 {
   "name": "Environment Almanac",
   "description": "An open, versioned index of public environmental data.",
-  "count": 13,
+  "count": 14,
   "by_status": {
     "dark": 1,
-    "live": 12
+    "live": 13
   },
   "entries": [
     {
@@ -763,6 +763,57 @@
       "license": "public-domain (US Gov work)",
       "attribution": "Water Quality Portal (USGS, EPA, NWQMC)",
       "notes": "Standardized WQX format; programmatic web services."
+    },
+    {
+      "id": "wri-global-nature-watch",
+      "type": "dataset",
+      "title": "Global Nature Watch (formerly Global Forest Watch)",
+      "description": "World Resources Institute's forest and land monitoring platform: annual 30 m tree cover loss, near-real-time deforestation alerts, tree cover and other land datasets with country and subnational dashboards, served through maps, a data portal and a data API. Formerly named Global Forest Watch.\n",
+      "publisher": "World Resources Institute (WRI)",
+      "jurisdiction": {
+        "scope": "international-ngo",
+        "country": null
+      },
+      "topics": [
+        "forests",
+        "deforestation",
+        "tree-cover",
+        "land-use"
+      ],
+      "source": {
+        "canonical_url": "https://globalnaturewatch.org/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": "Browsing and dataset metadata need no account; WRI's terms say many services require registering an account, and some API queries need a free key (not tested).",
+        "rate_limit": null
+      },
+      "format": [
+        "json",
+        "geotiff"
+      ],
+      "status": "live",
+      "status_since": "2026-11-01",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-11-01",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "global",
+        "temporal": "varies by dataset (tree cover loss 2001 onward, with 2025 included)",
+        "cadence": "annual"
+      },
+      "license": "varies by dataset (WRI terms of service); flagship UMD tree cover loss is CC-BY-4.0 (GFW Data API metadata)",
+      "attribution": "Cite each dataset as its metadata gives, e.g. Hansen et al., 2013, \"High-Resolution Global Maps of 21st-Century Forest Cover Change\", accessed through Global Nature Watch on [date], www.globalnaturewatch.org",
+      "notes": "Human-verified 2026-11-01: HTTP 200 after a 301 redirect: the issue's URL https://www.globalforestwatch.org/ now redirects to https://globalnaturewatch.org/, which is catalogued here. The page reads \"Global Forest Watch is now Global Nature Watch. A new name for the next chapter of our work — continuing to advance forest monitoring while expanding monitoring coverage and capabilities. Our name has changed, but our commitment remains the same and your workflows will continue to be supported.\" Old dashboard paths redirect too (/dashboards/global/), and https://data.globalforestwatch.org/ still answered 200. The GFW Data API (https://data-api.globalforestwatch.org/datasets) listed 382 datasets; umd_tree_cover_loss is at version v1.13, metadata updated 2026-08-05, \"annual, 30m, global, UMD GLAD\", with images used \"for 2023, 2024 and 2025\". The main tree cover loss data is produced by the University of Maryland GLAD lab (with Google, USGS and NASA) and served by WRI here; GLAD's own copy is at https://glad.earthengine.app/view/global-forest-change. The geotiff format, the alert products and the API key rules weren't checked.\nLicence checked 2026-11-01: WRI's terms (https://globalnaturewatch.org/terms/, reached from the old /terms/ URL) say \"Open data is important to Us and we make considerable effort to make many of the datasets available without restriction through the Services. Nonetheless, each dataset carries its own license and restrictions. You should review the dataset's metadata to understand these restrictions.\" The tree cover loss metadata in the Data API gives \"license\": \"CC BY 4.0\". Other datasets' licences weren't checked.\n"
     }
   ]
 }
