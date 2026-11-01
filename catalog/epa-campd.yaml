@@ -30,9 +30,11 @@ status_since: '2026-11-01'
 status_source: curator
 observed:
   checked: '2026-11-01'
-  reachable: null
-  http_status: null
-  final_url: null
+  reachable: true
+  http_status: 200
+  final_url: https://campd.epa.gov/
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States (power plants in EPA's programs)
   temporal: annual emissions through 2025; 2026 quarterly submissions in progress (start year not checked)

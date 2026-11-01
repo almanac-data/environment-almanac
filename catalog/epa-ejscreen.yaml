@@ -29,10 +29,12 @@ status: dark
 status_since: '2025-02-05'
 status_source: curator
 observed:
-  checked: '2026-10-31'
-  reachable: null
-  http_status: null
-  final_url: null
+  checked: '2026-11-01'
+  reachable: true
+  http_status: 404
+  final_url: https://www.epa.gov/ejscreen
+  redirect_chain: []
+  fingerprint_result: no-baseline
 recovery:
 - via: wayback
   url: https://web.archive.org/web/20250204145447/https://www.epa.gov/ejscreen/download-ejscreen-data
