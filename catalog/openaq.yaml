@@ -1,0 +1,44 @@
+id: openaq
+type: dataset
+title: OpenAQ Air Quality Data Platform
+description: |
+  A nonprofit platform that gathers ground-level air-quality measurements (PM2.5, PM10, O3, NO2, SO2, CO, black carbon) from government monitoring networks and other providers worldwide, and serves them through one API and an open archive on AWS, with each measurement traced to its source.
+publisher: OpenAQ
+jurisdiction:
+  scope: international-ngo
+  country: null
+topics:
+- air-quality
+- pollution
+- particulate-matter
+- monitoring
+source:
+  canonical_url: https://openaq.org/
+access:
+  method:
+  - web
+  - api
+  - s3
+  auth_required: true
+  auth_note: "Free API key (X-API-Key header) required for the v3 API; the AWS archive bucket was not tested for anonymous access."
+  rate_limit: "60/minute and 2,000/hour per API key (free general use); higher limits by custom agreement"
+format:
+- json
+- csv.gz
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: global (stations in many countries; coverage depends on providers)
+  temporal: varies by station (example AirNow station since 2016; platform start year not checked)
+  cadence: daily
+license: "varies by source provider (per-source licences listed in the API); OpenAQ attribution required (OpenAQ Terms of Use)"
+attribution: OpenAQ, plus the original data provider of each measurement as the API and website give it
+notes: |
+  Human-verified 2026-11-01: HTTP 200. The home page says "OpenAQ is a nonprofit organization providing universal access to air quality data" and shows a live station card ("58 McMillan Reservoir Washington DC, US ... Provider: US EPA AirNow Reporting: Updated 3 hours ago Since 26/04/2016"). The API (https://api.openaq.org/v3/locations) answered 401 without a key, as documented: "Include your API key in the X-API-Key header of each request." The rate-limits page gives "Free ... 60 / minute 2,000 / hour". The AWS archive docs give the bucket https://openaq-data-archive.s3.amazonaws.com/ with files under /records/csv.gz/locationid=.../year=.../month=.... OpenAQ is an aggregator: it republishes measurements whose authoritative publishers are the government agencies and other providers it ingests (for the US, epa-airnow is the source entry). Cadence daily is a floor: many stations update hourly.
+  Licence checked 2026-11-01: OpenAQ Terms of Use (https://docs.openaq.org/about/terms) say "We only aggregate data that, to the best of our knowledge, has been made available for redistribution and use throughout the world. However, we provide no assurance that the data provided may be used free of any third-party claims", "OpenAQ users must therefore review and comply with any terms published by data providers", and "Attribution to OpenAQ as the source data is also required when using OpenAQ services for accessing the data." They also bar using the hosted API "to develop products or services that substantially duplicate or directly compete with OpenAQ's core offerings". There is no single data licence; the API's Licenses resource (https://docs.openaq.org/resources/licenses) lists each source's licence. Not checked: the licences of individual providers.
