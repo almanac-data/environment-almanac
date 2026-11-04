@@ -35,6 +35,13 @@ observed:
   final_url: https://www.airnow.gov/
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261101191508/https://www.airnow.gov/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-11-01'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 429).'
 coverage:
   spatial: United States
   temporal: real-time + forecast

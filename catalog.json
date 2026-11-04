@@ -53,6 +53,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104211920/https://www.eea.europa.eu/en/datahub",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "38 European countries (EEA member and cooperating countries)",
         "temporal": "varies by dataset",
@@ -106,6 +116,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261103023009/https://www.epa.gov/outdoor-air-quality-data",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-03",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States",
         "temporal": "1980-present",
@@ -159,6 +179,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261101191508/https://www.airnow.gov/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-01",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 429)."
+        }
+      ],
       "coverage": {
         "spatial": "United States",
         "temporal": "real-time + forecast",
@@ -211,6 +241,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104213107/https://www.epa.gov/aqs",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States",
         "temporal": "1980-present",
@@ -264,6 +304,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261103023810/https://campd.epa.gov/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-03",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States (power plants in EPA's programs)",
         "temporal": "annual emissions through 2025; 2026 quarterly submissions in progress (start year not checked)",
@@ -318,6 +368,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104213424/https://echo.epa.gov/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States",
         "temporal": "varies",
@@ -476,6 +536,16 @@
         ],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20250913005314/https://www.epa.gov/enviro",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2025-09-13",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "United States",
         "temporal": "varies",
@@ -595,6 +665,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261103022316/https://www.epa.gov/ground-water-and-drinking-water/safe-drinking-water-information-system-sdwis-federal-reporting",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-03",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States, territories and tribal primacy areas (public water system level)",
         "temporal": "not checked",
@@ -647,6 +727,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104214148/https://www.epa.gov/superfund/search-superfund-sites-where-you-live",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States and territories (site level)",
         "temporal": "1980s-present (CERCLA program history)",
@@ -701,6 +791,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104214456/https://www.epa.gov/toxics-release-inventory-tri-program",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States",
         "temporal": "1987-present",
