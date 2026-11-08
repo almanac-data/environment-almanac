@@ -46,7 +46,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.eea.europa.eu/en/datahub",
@@ -109,7 +109,7 @@
       "status_since": "2026-06-30",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.epa.gov/outdoor-air-quality-data",
@@ -172,7 +172,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.airnow.gov/",
@@ -234,7 +234,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.epa.gov/aqs",
@@ -297,7 +297,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://campd.epa.gov/",
@@ -361,7 +361,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://echo.epa.gov/",
@@ -424,7 +424,7 @@
       "status_since": "2025-02-05",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 404,
         "final_url": "https://www.epa.gov/ejscreen",
@@ -527,7 +527,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://enviro.epa.gov/",
@@ -601,7 +601,7 @@
         "lead_algo": "sha256"
       },
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.epa.gov/ghgreporting",
@@ -658,7 +658,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.epa.gov/ground-water-and-drinking-water/safe-drinking-water-information-system-sdwis-federal-reporting",
@@ -720,7 +720,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.epa.gov/superfund/search-superfund-sites-where-you-live",
@@ -784,7 +784,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.epa.gov/toxics-release-inventory-tri-program",
@@ -849,7 +849,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://ec.europa.eu/eurostat/web/environment/database",
@@ -902,7 +902,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://openaq.org/",
@@ -957,9 +957,9 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
-        "http_status": 403,
+        "http_status": 202,
         "final_url": "https://waterdata.usgs.gov/nwis",
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
@@ -1009,7 +1009,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.waterqualitydata.us/",
@@ -1062,7 +1062,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-04",
+        "checked": "2026-11-08",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://globalnaturewatch.org/",
