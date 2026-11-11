@@ -37,6 +37,13 @@ observed:
   final_url: https://waterdata.usgs.gov/nwis
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20260126153145/https://waterdata.usgs.gov/nwis
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-01-26'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-11: the newest existing capture (Save Page Now returned 520).'
 coverage:
   spatial: United States
   temporal: early 1900s-present
