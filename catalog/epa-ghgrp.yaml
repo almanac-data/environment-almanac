@@ -37,7 +37,7 @@ fingerprint:
   lead_hash: 5d6f3b4cfdd59cd3d137e1005826a5409e3a005d7a607d7f19f0950933e1da15
   lead_algo: sha256
 observed:
-  checked: '2026-11-11'
+  checked: '2026-11-12'
   reachable: true
   http_status: 200
   final_url: https://www.epa.gov/ghgreporting
